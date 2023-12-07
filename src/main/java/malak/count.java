@@ -44,6 +44,7 @@ Stream.of(students).collect(Collectors.
 groupingBy(s2-> s2.getMajor(), 
 Collectors.averagingDouble(s1->s1.getScore()))).
 forEach((k, v) -> System.out.printf("%10s%10.2f\n", k, v));
+System.out.println(" hi iam shahd ");
 
 }
 }
